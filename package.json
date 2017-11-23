@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build -sm -ec -bh /angular-portfolio/ & ngh --silent=false"
+    "deploy": "ng build -sm -ec -bh /angular-portfolio/ & ngh --silent=false",
+    "postinstall": "ng build --aot -prod"
   },
   "private": true,
   "dependencies": {
