@@ -1,0 +1,30 @@
+*{
+  color: #777;
+}
+
+::-moz-selection {
+    color: #fff;
+    background: #4480ED;
+}
+
+::selection {
+    color: #fff;
+    background: #4480ED;
+}
+.large{
+    display: block;
+}
+.small{
+    display: none;
+}
+@media all and (max-width:768px) {
+   .large{
+       display: none;
+   }
+   .small{
+       display: block;
+   }
+   nav{
+       display: none;
+   }
+}

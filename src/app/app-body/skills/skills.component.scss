@@ -1,0 +1,54 @@
+.skills {
+    padding: 50px 0;
+    h2.heading {
+        text-transform: uppercase;
+        padding: 10px 0;
+        position: relative;
+        color: #777;
+        letter-spacing: 1px;
+        font-weight: bolder;
+        &:after {
+            content: '';
+            width: 100px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            border-bottom: 5px dotted #eee;
+        }
+    }
+    .content {
+        padding: 30px 0;
+        .skill {
+            position: relative;
+            padding: 10px;
+            margin-bottom: 20px;
+            // box-shadow: 2px 2px 5px #e3e3e3, -2px -2px 5px #e3e3e3;
+            box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.08);
+            transition: all .2s ease-in-out;
+            height: 55px;
+            overflow: hidden;
+            &:hover {
+                background: #4480ED;
+                transform: scale(1.1);
+                span{
+                    color: #fff;
+                }
+            }
+            &__img {
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+            }
+            &__name {
+                margin-left: 20px;
+            }
+            &__precentage {
+                float: right;
+                padding: 5px;
+                line-height: 20px;
+            }
+        }
+    }
+}

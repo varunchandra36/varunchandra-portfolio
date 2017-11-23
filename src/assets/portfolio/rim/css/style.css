@@ -1,0 +1,240 @@
+ * {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+     -o-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+
+/* Start Navbar */
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+    background: none;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: #0085FE;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #0085FE;
+}
+
+.navbar-default {
+	background:none;
+	border:none;
+}
+
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:hover {
+	color: #0F2F83;
+	background-color: transparent;
+    outline: none;
+}
+
+.navbar-default .navbar-nav > li > a, 
+.navbar-default .navbar-nav > li > a:focus, 
+.navbar-default .navbar-nav > li > a:hover{
+	color: #0F2F83;
+	background-color: transparent;
+    outline: none;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav i{
+    color: #0085FE;
+    font-size: 20px;
+}
+
+.navbar-default .navbar-nav i.fa-facebook:hover,
+.navbar-default .navbar-nav i.fa-facebook:focus{
+    color: #4B66A0;
+}
+
+.navbar-default .navbar-nav i.fa-twitter:hover,
+.navbar-default .navbar-nav i.fa-twitter:focus{
+    color: #55ACEE;
+}
+
+.navbar-default .navbar-nav i.fa-youtube:hover,
+.navbar-default .navbar-nav i.fa-youtube:focus{
+    color: #FB0016;
+}
+
+.navbar-default .navbar-nav i.fa-google-plus:hover,
+.navbar-default .navbar-nav i.fa-google-plus:focus{
+    color: #D73D32;
+}
+
+.navbar-default .navbar-nav i.fa-instagram:hover,
+.navbar-default .navbar-nav i.fa-instagram:focus{
+    color: #2A5B83;
+}
+
+/* End Navbar */
+/* Start Header */
+
+header{
+    background: url('../images/Album_12217.jpg')no-repeat center center fixed;
+    background-size: cover;
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+    min-height: 641px;
+    max-height: 641px;
+}
+
+header .content-header h1{
+    margin-top: 250px;
+    color: #fff;
+    font-size: 50px;
+}
+
+header span{
+    display: block;
+    color: #fff;
+    font-size: 50px;
+}
+
+header span i {
+    margin-top:140px;
+    color: #fff;
+    outline: none;
+    font-size: 50px;
+}
+
+/* End Header */
+/* Start Video */
+
+.video{
+    padding: 50px 0px 50px 0px;
+    background: #ffffff;
+    color: #000;
+}
+
+.video h2, .video .lead{
+    margin-bottom: 50px;
+}
+
+/* End Video */
+/* Start Subscribe */
+
+.subscribe{
+    padding: 50px 0px 50px 0px;
+    background: #486A75;
+    color: #fff;
+}
+
+.subscribe h2{
+    margin-bottom: 30px;
+}
+
+.subscribe form input{
+    color: #0085FE;
+    margin-bottom: 30px;
+}
+
+.subscribe .col-md-offset-5 {
+    margin-left: 37.667%;
+}
+
+.subscribe .btn-success{
+    width: 200px;
+}
+/* End Subscribe */
+/* Start Album */
+
+.album{
+    padding: 50px 0px 50px 0px;
+    background: #fff;
+}
+
+/* End Album */
+/* Start About */
+
+.about{
+    padding: 50px 0px 50px 0px;
+    background: #2A3744;
+    color: #fff
+}
+
+.about .panel-group .panel-body{
+    color: #000;
+    font-size: 16px;
+}
+/* End About */
+/* Start Contact */
+
+.contact{
+    padding: 50px 0px 50px 0px;
+    background: #212A34;
+    color: #fff;
+}
+
+.contact form{
+    margin-bottom: 50px;
+}
+
+.contact i{
+    font-size: 50px;
+}
+
+.contact h2{
+    margin-bottom: 50px;
+}
+
+.contact form .form-group input{
+    margin-bottom: 20px;
+}
+
+.contact form .form-group textarea {
+    margin-bottom: 20px;
+    height: 112px;
+}
+
+.contact .follow-us a{
+    padding-right: 20px;
+}
+
+.contact .follow-us .fa-facebook-square{
+    color: #43609C;
+    outline: none;
+}
+
+.contact .follow-us .fa-twitter-square{
+    color: #55ACEE;
+    outline: none;
+}
+
+.contact .follow-us .fa-youtube-square{
+    color: #FB0016;
+    outline: none;
+}
+
+.contact .follow-us .fa-google-plus-square{
+    color: #D73D32;
+    outline: none;
+}
+
+.contact .follow-us .fa-instagram{
+    color: #125688;
+    outline: none;
+}
+
+/* End Contact */
+/* Start Footer */
+
+footer{
+    padding: 20px 0px 20px 0px;
+    background: #141A21;
+    color: #fff;
+}
+
+footer a, footer a:hover, footer a:focus{
+    color: #0085FE;
+    text-decoration: none;
+    outline: none;
+}
+
+/* End Footer */

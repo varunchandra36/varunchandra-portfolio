@@ -1,0 +1,24 @@
+<section class="portfolio">
+  <h2 class="text-center heading">portfolio</h2>
+  <div class="container">
+    <div class="row">
+      <div class="content">
+        <div class="col-md-4 col-sm-6 col-xs-12" *ngFor="let portfolios of portfolio">
+          <div class="portfolio__item">
+            <a href="{{portfolios.link}}" title="{{portfolios.name}}" target="_black">
+            <img src="{{portfolios.imagePath}}{{portfolios.image}}" class="img-responsive" alt="{{portfolios.name}}" title="{{portfolios.name}}"/>
+          </a>
+            <div class="portfolio__description text-center">
+              <h3>{{portfolios.name}}</h3>
+              <h4>
+                <a href="{{portfolios.companyLink}}" target="_blank">
+                {{portfolios.companyName}}
+              </a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

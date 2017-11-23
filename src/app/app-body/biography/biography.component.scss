@@ -1,0 +1,39 @@
+.bio{
+  padding: 50px 0;
+  h2.heading{
+    text-transform: uppercase;
+    padding: 10px 0;
+    position: relative;
+    color: #000000;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    &:after{
+      content:'';
+      width: 100px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      border-bottom: 5px dotted #eee;
+    }
+  }
+  .content{
+    letter-spacing: 1px;
+    padding: 30px 0;
+    p{
+      line-height: 25px;
+      color: #000000;
+    }
+    li{
+      margin-block-end: 10px;
+    }
+    a{
+      i{
+        width: 15px;
+        margin-right: 5px;
+      }
+      color: #000000;
+    }
+  }
+}

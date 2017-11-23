@@ -1,0 +1,18 @@
+<footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <ul class="list-unstyled">
+        <li *ngFor="let socialIcons of socialIcon">
+          <a href="{{socialIcons.link}}" target="_blank" title="{{socialIcons.link}}">
+            <i class={{socialIcons.icon}}></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="row">
+      <p>
+        Copyright &copy; 2017 varunchandra
+      </p>
+    </div>
+  </div>
+</footer>

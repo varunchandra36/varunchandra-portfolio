@@ -1,0 +1,11 @@
+<nav>
+
+  <ul class="list-unstyled">
+    <li *ngFor="let navNames of navName">
+      <a routerLink="{{navNames.routerLinks}}">
+        <span>{{navNames.name}}</span>
+        <i class="{{navNames.icon}}" title="{{navNames.name}}"></i>
+      </a>
+    </li>
+  </ul>
+</nav>

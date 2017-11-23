@@ -1,0 +1,21 @@
+<section class="exp">
+  <h2 class="text-center heading">{{experianceTitle}}</h2>
+  <div class="container">
+    <div class="row">
+      <div class="content">
+        <div class="col-md-4 col-sm-6 col-xs-12" *ngFor="let company of companies">
+          <div class="company">
+            <h3>{{ company.position }}</h3>
+            <h5>
+              <a href="{{company.website}}" target="_blank">
+                {{ company.name }}
+              </a>
+            </h5>
+            <span>{{ company.date }}</span>
+            <p>{{company.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
